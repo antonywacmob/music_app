@@ -134,28 +134,8 @@ Polls is a simple API allowing consumers to view polls and vote in them.
                      }
             }
             
-            
+        
 ## Resource [/get_album/1]
-
-### Retrieve [GET]
-
-<!--+ Request one-->
-<!--    + Parameters-->
-<!--        + id: 1-->
-
-+ Response 200 (application/json)
-
-        {
-          "status":"success",
-          "message":"successfully loaded",
-          "data": {
-          
-          
-                  }
-        
-        }
-        
-## Resource [/get_album/2]
 
 ### Retrieve [GET]
         
@@ -166,11 +146,51 @@ Polls is a simple API allowing consumers to view polls and vote in them.
 + Response 200 (application/json)
 
         {
-          "status":"success1",
-          "message":"successfcscsully loaded",
+          "status":"success",
+          "message":"successfully loaded",
           "data": {
-          
-          
-                  }
+                    "album_name":"Joseph",
+                    "song_count":"6",
+                    "image":"https://i.ibb.co/VwCS3H4/joseph.jpg",
+                    "thumb":"https://i.ibb.co/VwCS3H4/joseph.jpg",
+                    "songs": [
+                                {
+                                  "song_id":1,
+                                  "song_name":"Poomuthole",
+                                  "artist_name":"Niranj Suresh",
+                                  "song_url":"https://firebasestorage.googleapis.com/v0/b/musicplayer-4b813.appspot.com/o/01%20-%20Joseph%20-%20Poomuthole%20%5BMaango.cc%5D.mp3?alt=media&token=ad885973-8a65-4291-add2-1b3284fe521c"
+                                },
+                                {
+                                  "song_id":2,
+                                  "song_name":"Pandu Paadavarambathiloode",
+                                  "artist_name":"Bhagyaraj, Ranjin Raj",
+                                  "song_url":"https://firebasestorage.googleapis.com/v0/b/musicplayer-4b813.appspot.com/o/02%20-%20Joseph%20-%20Pandu%20Paadavarambathiloode%20%5BMaango.cc%5D.mp3?alt=media&token=a166a30f-9777-4332-9d93-d13d6582ee6b"
+                                },
+                                {
+                                  "song_id":3,
+                                  "song_name":"Uyirin Naadhane",
+                                  "artist_name":"Vijay Yesudas, Merin Gregory",
+                                  "song_url":"https://firebasestorage.googleapis.com/v0/b/musicplayer-4b813.appspot.com/o/03%20-%20Joseph%20-%20Uyirin%20Naadhane%20%5BMaango.cc%5D.mp3?alt=media&token=d58ac03e-b1b8-437f-abd4-9e07f4546453"
+                                },
+                                {
+                                  "song_id":4,
+                                  "song_name":"Karineela Kannulla Pennu",
+                                  "artist_name":"Karthik, Akhila Anand",
+                                  "song_url":"https://firebasestorage.googleapis.com/v0/b/musicplayer-4b813.appspot.com/o/04%20-%20Joseph%20-%20Karineela%20Kannulla%20Pennu%20%5BMaango.cc%5D.mp3?alt=media&token=8df988e4-42d7-43a6-9bdf-b4639058e034"
+                                },
+                                {
+                                  "song_id":5,
+                                  "song_name":"Kannethaa Dooram",
+                                  "artist_name":"Vijay Yesudas",
+                                  "song_url":"https://firebasestorage.googleapis.com/v0/b/musicplayer-4b813.appspot.com/o/05%20-%20Joseph%20-%20Kannethaa%20Dooram%20%5BMaango.cc%5D.mp3?alt=media&token=4d509cc9-e050-4edf-9036-b5ff21aaf74d"
+                                },
+                                {
+                                  "song_id":6,
+                                  "song_name":"Poomuthole",
+                                  "artist_name":"Vijay Yesudas",
+                                  "song_url":"https://firebasestorage.googleapis.com/v0/b/musicplayer-4b813.appspot.com/o/06%20-%20Joseph%20-%20Poomuthole%20%5BMaango.cc%5D.mp3?alt=media&token=70c8ea9a-b5de-4da8-a0ec-9db9cd0f645d"
+                                }
+                    ]
+             }
         
         }

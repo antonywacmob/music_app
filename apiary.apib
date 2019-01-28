@@ -402,3 +402,107 @@ Polls is a simple API allowing consumers to view polls and vote in them.
              
         
         }
+        
+        
+## Questions Collection [/search/{keyword}]
+
+### List All Questions [GET]
+
++ Response 200 (application/json)
+
+        {
+            "status":"success",
+            "message":"successfully loaded",
+            "data": {
+                      "songs": [
+                                {
+                                 "song_id":1,
+                                 "name":"Puthiyoru Pathayil",
+                                 "album_name":"Varathan",
+                                 "artist_name":"Nazriya",
+                                 "song_url":"https://firebasestorage.googleapis.com/v0/b/musicplayer-4b813.appspot.com/o/01%20-%20Varathan%20-%20Puthiyoru%20Pathayil%20%5BMaango.ws%5D.mp3?alt=media&token=21ccb09c-21b0-4bdb-af59-67648694f404",
+                                 "image":"https://i.ibb.co/HGLTFmV/varathan.jpg",
+                                 "thumb":"https://i.ibb.co/HGLTFmV/varathan.jpg"
+                                },
+                                {
+                                 "song_id":2,
+                                 "name":"Pyaar Pyaar",
+                                 "album_name":"Parava",
+                                 "artist_name":"Rex Vijayan",
+                                 "song_url":"https://firebasestorage.googleapis.com/v0/b/musicplayer-4b813.appspot.com/o/01%20-%20Parava%20-%20Pyaar%20Pyaar%20%5BMaango.info%5D.mp3?alt=media&token=5b15773c-cefa-4c4b-9157-3d7563af3d29",
+                                 "image":"https://i.ibb.co/NFd3rBK/parava.jpg",
+                                 "thumb":"https://i.ibb.co/NFd3rBK/parava.jpg"
+                                },
+                                {
+                                 "song_id":3,
+                                 "name":"Ee Chilayil",
+                                 "album_name":"Spirit",
+                                 "artist_name":"Yeshudas",
+                                 "song_url":"https://firebasestorage.googleapis.com/v0/b/musicplayer-4b813.appspot.com/o/01%20-%20Spirit%20-%20Ee%20Chillayil%20%5BMaango.ws%5D.mp3?alt=media&token=1ceb52ef-1166-48ef-a30e-ac2ce902a747",
+                                 "image":"https://i.ibb.co/kMD8crK/spirit.jpg",
+                                 "thumb":"https://i.ibb.co/kMD8crK/spirit.jpg"
+                                },
+                                {
+                                 "song_id":4,
+                                 "name":"Thaniye",
+                                 "album_name":"Guppy",
+                                 "artist_name":"Sooraj Santhosh",
+                                 "song_url":"https://firebasestorage.googleapis.com/v0/b/musicplayer-4b813.appspot.com/o/04%20-%20Guppy%20-%20Thaniye%20%5BMaango.me%5D.mp3?alt=media&token=029fa264-230c-479c-90de-92992a039045",
+                                 "image":"https://i.ibb.co/0ZWzs28/gupi.jpg",
+                                 "thumb":"https://i.ibb.co/0ZWzs28/gupi.jpg"
+                                }
+                            ],
+                     "albums": [
+                                {
+                                 "album_id":1,
+                                 "name":"Joseph",
+                                 "song_count":6,
+                                 "image":"https://i.ibb.co/VwCS3H4/joseph.jpg",
+                                 "thumb":"https://i.ibb.co/VwCS3H4/joseph.jpg"
+                                },
+                                {
+                                 "album_id":2,
+                                 "name":"1983",
+                                 "song_count":4,
+                                 "image":"https://i.ibb.co/x2xySNf/1983.jpg",
+                                 "thumb":"https://i.ibb.co/x2xySNf/1983.jpg"
+                                },
+                                {
+                                 "album_id":3,
+                                 "name":"Pretham",
+                                 "song_count":1,
+                                 "image":"https://i.ibb.co/860nkxz/pretham.jpg",
+                                 "thumb":"https://i.ibb.co/860nkxz/pretham.jpg"
+                                },
+                                {
+                                 "album_id":4,
+                                 "name":"Varathan",
+                                 "song_count":3,
+                                 "image":"https://i.ibb.co/HGLTFmV/varathan.jpg",
+                                 "thumb":"https://i.ibb.co/HGLTFmV/varathan.jpg"
+                                }
+                            ],
+                     "artists":  [
+                                {
+                                 "artist_id":1,
+                                 "name":"Yeshudas",
+                                 "image":"https://i.ibb.co/mhcwFMx/yeshu-1401893713.jpg"
+                                },
+                                {
+                                 "artist_id":2,
+                                 "name":"Sreekumar",
+                                 "image":"https://i.ibb.co/S7pmLq6/sreekumar.jpg"
+                                },
+                                {
+                                 "artist_id":3,
+                                 "name":"Anu Sithara",
+                                 "image":"https://i.ibb.co/kmrbPJp/22687832-1426096807440196-4276502542564884957-n.jpg"
+                                },
+                                {
+                                 "artist_id":4,
+                                 "name":"KS Chithra",
+                                 "image":"https://i.ibb.co/QQ1XDk6/chithra.jpg"
+                                }
+                            ]
+                     }
+            }

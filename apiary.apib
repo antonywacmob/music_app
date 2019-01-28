@@ -135,18 +135,18 @@ Polls is a simple API allowing consumers to view polls and vote in them.
             }
             
             
-# Resource [/get_album/{album_id}]
+# Resource [/get_album/{id}]
 
 + Parameters
-    + album_id (required, int)
+    + id (required, int)
 
 ## Retrieve [GET]
 
-+ Request 1
++ Request one
     + Parameters
-        + album_id: 1
+        + id: 1
 
-+ Response 200 
++ Response 200 (application/json)
 
         {
           "status":"success",
@@ -158,11 +158,11 @@ Polls is a simple API allowing consumers to view polls and vote in them.
         
         }
         
-+ Request 2
++ Request two
     + Parameters
         + album_id: 2
 
-+ Response 200 
++ Response 200 (application/json)
 
         {
           "status":"success1",

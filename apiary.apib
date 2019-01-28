@@ -243,3 +243,34 @@ Polls is a simple API allowing consumers to view polls and vote in them.
              }
         
         }
+        
+        
+## Resource [/get_album/3]
+
+### Retrieve [GET]
+
+<!--+ Request one-->
+<!--    + Parameters-->
+<!--        + id: 1-->
+
++ Response 200 (application/json)
+
+        {
+          "status":"success",
+          "message":"successfully loaded",
+          "data": {
+                    "album_name":"Pretham",
+                    "song_count":1,
+                    "image":"https://i.ibb.co/860nkxz/pretham.jpg",
+                    "thumb":"https://i.ibb.co/860nkxz/pretham.jpg",
+                    "songs": [
+                                {
+                                  "song_id":1,
+                                  "song_name":"Oruthikku Pinnil",
+                                  "artist_name":"Vineeth Sreenivasan",
+                                  "song_url":"https://firebasestorage.googleapis.com/v0/b/musicplayer-4b813.appspot.com/o/01%20-%20Pretham%20-%20Oruthikku%20Pinnil%20%5BMaango.me%5D.mp3?alt=media&token=0648d8c4-31e6-4e7a-a965-50e807373496"
+                                }
+                    ]
+             }
+        
+        }

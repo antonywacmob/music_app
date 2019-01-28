@@ -14,89 +14,125 @@ Polls is a simple API allowing consumers to view polls and vote in them.
         {
             "status":"success",
             "message":"successfully loaded",
-            "data": [
-                     {
-                      "title":"banner",
-                      "items": [
+            "data": {
+                      "banner": [
+                                 {
+                                  "banner_id":1,
+                                  "banner_type":0,
+                                  "name":"banner1",
+                                  "image":"https://i.ibb.co/19VZRL4/bg10.jpg",
+                                  "thumb":"https://i.ibb.co/19VZRL4/bg10.jpg",
+                                  "song_url":""
+                                 },
+                                 {
+                                  "banner_id":2,
+                                  "banner_type":1,
+                                  "name":"banner2",
+                                  "image":"https://i.ibb.co/j826LL7/esra.jpg",
+                                  "thumb":"https://i.ibb.co/j826LL7/esra.jpg",
+                                  "song_url":""
+                                 },
+                                 {
+                                  "banner_id":3,
+                                  "banner_type":2,
+                                  "name":"banner3",
+                                  "image":"https://i.ibb.co/61Z053d/download.jpg",
+                                  "thumb":"https://i.ibb.co/61Z053d/download.jpg",
+                                  "song_url":""
+                                 }
+                            ],
+                      "trending_songs": [
                                 {
-                                 "name":"banner1",
-                                 "image":"https://i.ibb.co/19VZRL4/bg10.jpg"
-                                },
-                                {
-                                 "name":"banner2",
-                                 "image":"https://i.ibb.co/j826LL7/esra.jpg"
-                                },
-                                {
-                                 "name":"banner3",
-                                 "image":"https://i.ibb.co/61Z053d/download.jpg"
-                                }
-                            ]
-                     },
-                     {
-                      "title":"trending_songs",
-                      "items": [
-                                {
+                                 "song_id":1,
                                  "name":"Puthiyoru Pathayil",
-                                 "image":"https://i.ibb.co/HGLTFmV/varathan.jpg"
+                                 "album_name":"Varathan",
+                                 "artist_name":"Nazriya",
+                                 "song_url":"",
+                                 "image":"https://i.ibb.co/HGLTFmV/varathan.jpg",
+                                 "thumb":"https://i.ibb.co/HGLTFmV/varathan.jpg"
                                 },
                                 {
+                                 "song_id":2,
                                  "name":"Pyaar Pyaar",
-                                 "image":"https://i.ibb.co/NFd3rBK/parava.jpg"
+                                 "album_name":"Parava",
+                                 "artist_name":"Rex Vijayan",
+                                 "song_url":"",
+                                 "image":"https://i.ibb.co/NFd3rBK/parava.jpg",
+                                 "thumb":"https://i.ibb.co/NFd3rBK/parava.jpg"
                                 },
                                 {
+                                 "song_id":3,
                                  "name":"Maranamethunna Nerath",
-                                 "image":"https://i.ibb.co/kMD8crK/spirit.jpg"
+                                 "album_name":"Spirit",
+                                 "artist_name":"Yeshudas",
+                                 "song_url":"",
+                                 "image":"https://i.ibb.co/kMD8crK/spirit.jpg",
+                                 "thumb":"https://i.ibb.co/kMD8crK/spirit.jpg"
                                 },
                                 {
+                                 "song_id":4,
                                  "name":"Thaniye",
-                                 "image":"https://i.ibb.co/0ZWzs28/gupi.jpg"
+                                 "album_name":"Guppy",
+                                 "artist_name":"Sooraj Santhosh",
+                                 "song_url":"",
+                                 "image":"https://i.ibb.co/0ZWzs28/gupi.jpg",
+                                 "thumb":"https://i.ibb.co/0ZWzs28/gupi.jpg"
                                 }
-                            ]
-                     },
-                     {
-                      "title":"top_songs",
-                      "items": [
+                            ],
+                     "top_charts": [
                                 {
-                                 "name":"Poomuthole",
-                                 "image":"https://i.ibb.co/VwCS3H4/joseph.jpg"
+                                 "album_id":1,
+                                 "name":"Joseph",
+                                 "song_count":6,
+                                 "image":"https://i.ibb.co/VwCS3H4/joseph.jpg",
+                                 "thumb":"https://i.ibb.co/VwCS3H4/joseph.jpg"
                                 },
                                 {
-                                 "name":"Nenjile Nenjile",
-                                 "image":"https://i.ibb.co/x2xySNf/1983.jpg"
+                                 "album_id":2,
+                                 "name":"1983",
+                                 "song_count":5,
+                                 "image":"https://i.ibb.co/x2xySNf/1983.jpg",
+                                 "thumb":"https://i.ibb.co/x2xySNf/1983.jpg"
                                 },
                                 {
-                                 "name":"Njanundivite",
-                                 "image":"https://i.ibb.co/860nkxz/pretham.jpg"
+                                 "album_id":3,
+                                 "name":"Pretham",
+                                 "song_count":5,
+                                 "image":"https://i.ibb.co/860nkxz/pretham.jpg",
+                                 "thumb":"https://i.ibb.co/860nkxz/pretham.jpg"
                                 },
                                 {
-                                 "name":"Puthyoru Pathayil",
-                                 "image":"https://i.ibb.co/HGLTFmV/varathan.jpg"
+                                 "album_id":4,
+                                 "name":"Varathan",
+                                 "song_count":2,
+                                 "image":"https://i.ibb.co/HGLTFmV/varathan.jpg",
+                                 "thumb":"https://i.ibb.co/HGLTFmV/varathan.jpg"
                                 }
-                            ]
-                     },
-                     {
-                      "title":"artists",
-                      "items": [
+                            ],
+                     "artists":  [
                                 {
+                                 "artist_id":1,
                                  "name":"Yeshudas",
                                  "image":"https://i.ibb.co/mhcwFMx/yeshu-1401893713.jpg"
                                 },
                                 {
+                                 "artist_id":2,
                                  "name":"Sreekumar",
                                  "image":"https://i.ibb.co/S7pmLq6/sreekumar.jpg"
                                 },
                                 {
+                                 "artist_id":3,
                                  "name":"Anu Sithara",
                                  "image":"https://i.ibb.co/kmrbPJp/22687832-1426096807440196-4276502542564884957-n.jpg"
                                 },
                                 {
+                                 "artist_id":4,
                                  "name":"KS Chithra",
                                  "image":"https://i.ibb.co/QQ1XDk6/chithra.jpg"
                                 }
                             ]
                      }
-                ]
-        }
+            }
         
         
 ## Questions Collection [/banner]

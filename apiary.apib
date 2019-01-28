@@ -135,18 +135,25 @@ Polls is a simple API allowing consumers to view polls and vote in them.
             }
             
             
-## Questions Collection [/get_album/{album_id}]
-
-### List All Questions [POST]
+# Resource [/get_album/{album_id}]
 
 + Parameters
-  + album_id (number,required) - ID of the Question in the form of an integer
-  
-+ Response 200 (application/json)
+    + album_id ... bla
+
+## Retrieve [GET]
+
++ Request 1
+    + Parameters
+        + album_id: 1
+
++ Response 200 
 
         {
+          "status":"success",
+          "message":"successfully loaded",
+          "data": {
+          
+          
+                  }
         
-    
-    
-    
         }

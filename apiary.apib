@@ -1445,3 +1445,28 @@ Polls is a simple API allowing consumers to view polls and vote in them.
              
         
         }
+        
+        
+
+## Login [/login]
+
+### Login [POST]
+
++ Request (application/json)
+
+        {
+            "email": "xxx@yyy.com",
+            "password": "password"
+        }
+        
++ Response 200 (application/json)
+
+        {
+            "status": "success",
+            "message": "user successfully logged in",
+            "data": {
+                        "user_id": 1
+            
+            }
+        
+        }

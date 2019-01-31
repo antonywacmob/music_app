@@ -1296,3 +1296,152 @@ Polls is a simple API allowing consumers to view polls and vote in them.
                     ]
             
         }
+        
+        
+        
+## Resource [/artist/{artist_id}]
+
+### Retrieve [GET]
+
+<!--+ Request one-->
+<!--    + Parameters-->
+<!--        + id: 1-->
+
++ Response 200 (application/json)
+
+        {
+          "status":"success",
+          "message":"successfully loaded",
+          "data": [
+                                {
+                                  "song_id":1,
+                                  "song_name":"Olanajali Kuruvi",
+                                  "artist_name":"Jayachandran, Vani Jairam",
+                                  "song_url":"https://firebasestorage.googleapis.com/v0/b/musicplayer-4b813.appspot.com/o/Olanjali%20Kuruvi-(Nice%20Song)%20-.mp3?alt=media&token=11d8dcbf-7329-4d8c-9948-06aa25572be4",
+                                  "image":"https://i.ibb.co/x2xySNf/1983.jpg",
+                                  "thumb":"https://i.ibb.co/x2xySNf/1983.jpg"
+                                },
+                                {
+                                  "song_id":2,
+                                  "song_name":"Thalavettam Kanumba",
+                                  "artist_name":"Gopi Sundar, Nivas",
+                                  "song_url":"https://firebasestorage.googleapis.com/v0/b/musicplayer-4b813.appspot.com/o/Thalavattam%20Kanumbol%20-.mp3?alt=media&token=7da82927-a22e-4765-9e0f-b4d05363b23c",
+                                  "image":"https://i.ibb.co/860nkxz/pretham.jpg",
+                                  "thumb":"https://i.ibb.co/860nkxz/pretham.jpg"
+                                },
+                                {
+                                  "song_id":3,
+                                  "song_name":"Nenjile Nenjile",
+                                  "artist_name":"Shankar Mahadevan, Gopi Sundar, Aleetta Dennis",
+                                  "song_url":"https://firebasestorage.googleapis.com/v0/b/musicplayer-4b813.appspot.com/o/Nenjile%20Nenjile-(Sachin-Song)%20-.mp3?alt=media&token=465092f3-90eb-4924-8426-355fbecfd885",
+                                  "image":"https://i.ibb.co/kMD8crK/spirit.jpg",
+                                  "thumb":"https://i.ibb.co/kMD8crK/spirit.jpg"
+                                },
+                                {
+                                  "song_id":4,
+                                  "song_name":"Olakkam Choodumaayi",
+                                  "artist_name":"Aleetta Dennis, Nivas",
+                                  "song_url":"https://firebasestorage.googleapis.com/v0/b/musicplayer-4b813.appspot.com/o/Olakkam%20Choodumayi%20-.mp3?alt=media&token=7805cf6e-6f91-4037-9bd0-ec7dadc7dba0",
+                                  "image":"https://i.ibb.co/VwCS3H4/joseph.jpg",
+                                  "thumb":"https://i.ibb.co/VwCS3H4/joseph.jpg"
+                                },
+                                {
+                                  "song_id":5,
+                                  "song_name":"Olanajali Kuruvi",
+                                  "artist_name":"Jayachandran, Vani Jairam",
+                                  "song_url":"https://firebasestorage.googleapis.com/v0/b/musicplayer-4b813.appspot.com/o/Olanjali%20Kuruvi-(Nice%20Song)%20-.mp3?alt=media&token=11d8dcbf-7329-4d8c-9948-06aa25572be4",
+                                  "image":"https://i.ibb.co/0ZWzs28/gupi.jpg",
+                                  "thumb":"https://i.ibb.co/0ZWzs28/gupi.jpg"
+                                },
+                                {
+                                  "song_id":6,
+                                  "song_name":"Thalavettam Kanumba",
+                                  "artist_name":"Gopi Sundar, Nivas",
+                                  "song_url":"https://firebasestorage.googleapis.com/v0/b/musicplayer-4b813.appspot.com/o/Thalavattam%20Kanumbol%20-.mp3?alt=media&token=7da82927-a22e-4765-9e0f-b4d05363b23c",
+                                  "image":"https://i.ibb.co/x2xySNf/1983.jpg",
+                                  "thumb":"https://i.ibb.co/x2xySNf/1983.jpg"
+                                },
+                                {
+                                  "song_id":7,
+                                  "song_name":"Nenjile Nenjile",
+                                  "artist_name":"Shankar Mahadevan, Gopi Sundar, Aleetta Dennis",
+                                  "song_url":"https://firebasestorage.googleapis.com/v0/b/musicplayer-4b813.appspot.com/o/Nenjile%20Nenjile-(Sachin-Song)%20-.mp3?alt=media&token=465092f3-90eb-4924-8426-355fbecfd885",
+                                  "image":"https://i.ibb.co/860nkxz/pretham.jpg",
+                                  "thumb":"https://i.ibb.co/860nkxz/pretham.jpg"
+                                },
+                                {
+                                  "song_id":8,
+                                  "song_name":"Olakkam Choodumaayi",
+                                  "artist_name":"Aleetta Dennis, Nivas",
+                                  "song_url":"https://firebasestorage.googleapis.com/v0/b/musicplayer-4b813.appspot.com/o/Olakkam%20Choodumayi%20-.mp3?alt=media&token=7805cf6e-6f91-4037-9bd0-ec7dadc7dba0",
+                                  "image":"https://i.ibb.co/kMD8crK/spirit.jpg",
+                                  "thumb":"https://i.ibb.co/kMD8crK/spirit.jpg"
+                                },
+                                {
+                                  "song_id":9,
+                                  "song_name":"Olanajali Kuruvi",
+                                  "artist_name":"Jayachandran, Vani Jairam",
+                                  "song_url":"https://firebasestorage.googleapis.com/v0/b/musicplayer-4b813.appspot.com/o/Olanjali%20Kuruvi-(Nice%20Song)%20-.mp3?alt=media&token=11d8dcbf-7329-4d8c-9948-06aa25572be4",
+                                  "image":"https://i.ibb.co/VwCS3H4/joseph.jpg",
+                                  "thumb":"https://i.ibb.co/VwCS3H4/joseph.jpg"
+                                },
+                                {
+                                  "song_id":10,
+                                  "song_name":"Thalavettam Kanumba",
+                                  "artist_name":"Gopi Sundar, Nivas",
+                                  "song_url":"https://firebasestorage.googleapis.com/v0/b/musicplayer-4b813.appspot.com/o/Thalavattam%20Kanumbol%20-.mp3?alt=media&token=7da82927-a22e-4765-9e0f-b4d05363b23c",
+                                  "image":"https://i.ibb.co/0ZWzs28/gupi.jpg",
+                                  "thumb":"https://i.ibb.co/0ZWzs28/gupi.jpg"
+                                },
+                                {
+                                  "song_id":11,
+                                  "song_name":"Nenjile Nenjile",
+                                  "artist_name":"Shankar Mahadevan, Gopi Sundar, Aleetta Dennis",
+                                  "song_url":"https://firebasestorage.googleapis.com/v0/b/musicplayer-4b813.appspot.com/o/Nenjile%20Nenjile-(Sachin-Song)%20-.mp3?alt=media&token=465092f3-90eb-4924-8426-355fbecfd885",
+                                  "image":"https://i.ibb.co/x2xySNf/1983.jpg",
+                                  "thumb":"https://i.ibb.co/x2xySNf/1983.jpg"
+                                },
+                                {
+                                  "song_id":12,
+                                  "song_name":"Olakkam Choodumaayi",
+                                  "artist_name":"Aleetta Dennis, Nivas",
+                                  "song_url":"https://firebasestorage.googleapis.com/v0/b/musicplayer-4b813.appspot.com/o/Olakkam%20Choodumayi%20-.mp3?alt=media&token=7805cf6e-6f91-4037-9bd0-ec7dadc7dba0",
+                                  "image":"https://i.ibb.co/860nkxz/pretham.jpg",
+                                  "thumb":"https://i.ibb.co/860nkxz/pretham.jpg"
+                                },
+                                {
+                                  "song_id":13,
+                                  "song_name":"Olanajali Kuruvi",
+                                  "artist_name":"Jayachandran, Vani Jairam",
+                                  "song_url":"https://firebasestorage.googleapis.com/v0/b/musicplayer-4b813.appspot.com/o/Olanjali%20Kuruvi-(Nice%20Song)%20-.mp3?alt=media&token=11d8dcbf-7329-4d8c-9948-06aa25572be4",
+                                  "image":"https://i.ibb.co/kMD8crK/spirit.jpg",
+                                  "thumb":"https://i.ibb.co/kMD8crK/spirit.jpg"
+                                },
+                                {
+                                  "song_id":14,
+                                  "song_name":"Thalavettam Kanumba",
+                                  "artist_name":"Gopi Sundar, Nivas",
+                                  "song_url":"https://firebasestorage.googleapis.com/v0/b/musicplayer-4b813.appspot.com/o/Thalavattam%20Kanumbol%20-.mp3?alt=media&token=7da82927-a22e-4765-9e0f-b4d05363b23c",
+                                  "image":"https://i.ibb.co/VwCS3H4/joseph.jpg",
+                                  "thumb":"https://i.ibb.co/VwCS3H4/joseph.jpg"
+                                },
+                                {
+                                  "song_id":15,
+                                  "song_name":"Nenjile Nenjile",
+                                  "artist_name":"Shankar Mahadevan, Gopi Sundar, Aleetta Dennis",
+                                  "song_url":"https://firebasestorage.googleapis.com/v0/b/musicplayer-4b813.appspot.com/o/Nenjile%20Nenjile-(Sachin-Song)%20-.mp3?alt=media&token=465092f3-90eb-4924-8426-355fbecfd885",
+                                  "image":"https://i.ibb.co/0ZWzs28/gupi.jpg",
+                                  "thumb":"https://i.ibb.co/0ZWzs28/gupi.jpg"
+                                },
+                                {
+                                  "song_id":16,
+                                  "song_name":"Olakkam Choodumaayi",
+                                  "artist_name":"Aleetta Dennis, Nivas",
+                                  "song_url":"https://firebasestorage.googleapis.com/v0/b/musicplayer-4b813.appspot.com/o/Olakkam%20Choodumayi%20-.mp3?alt=media&token=7805cf6e-6f91-4037-9bd0-ec7dadc7dba0",
+                                  "image":"https://i.ibb.co/x2xySNf/1983.jpg",
+                                  "thumb":"https://i.ibb.co/x2xySNf/1983.jpg"
+                                }
+                    ]
+             
+        
+        }

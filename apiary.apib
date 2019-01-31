@@ -1470,3 +1470,51 @@ Polls is a simple API allowing consumers to view polls and vote in them.
             }
         
         }
+        
+        
+## Register [/register]
+
+### Register [POST]
+
++ Request (application/json)
+
+        {
+            "name": "abcd",
+            "email": "abcd@efg.com",
+            "password": "password",
+            "phone": "9037324059",
+            "gender": "Male"
+        }
+        
++ Response 200 (application/json)
+
+        {
+            "status": "success",
+            "message": "account successfully created",
+            "data": { }
+        
+        }
+        
+        
+## Register [/reset_password]
+
+### Register [POST]
+
++ Request (application/json)
+
+        {
+            "name": "abcd",
+            "email": "abcd@efg.com",
+            "password": "password",
+            "phone": "9037324059",
+            "gender": "Male"
+        }
+        
++ Response 200 (application/json)
+
+        {
+            "status": "success",
+            "message": "account successfully created",
+            "data": { }
+        
+        }

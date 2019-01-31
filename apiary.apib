@@ -1518,3 +1518,23 @@ Polls is a simple API allowing consumers to view polls and vote in them.
             "data": { }
         
         }
+        
+
+## Forgot Password [/reset_password]
+
+### Register [POST]
+
++ Request (application/json)
+
+        {
+            "email": "abcd@efg.com",
+        }
+        
++ Response 200 (application/json)
+
+        {
+            "status": "success",
+            "message": "Verification link sent to email",
+            "data": { }
+        
+        }

@@ -1465,7 +1465,28 @@ Polls is a simple API allowing consumers to view polls and vote in them.
             "status": "success",
             "message": "user successfully logged in",
             "data": {
-                        "user_id": 1
+                        "token": "elxkjkjskjzvkjhkjkjjhckjhkjkzjhkjbkjbkjszcv"
+            }
+        
+        }
+        
+## Token Refresh [/token_refresh]
+
+### Login [POST]
+
++ Request (application/json)
+
+        {
+            "token": "elxkjkjskjzvkjhkjkjjhckjhkjkzjhkjbkjbkjszcv"
+        }
+        
++ Response 200 (application/json)
+
+        {
+            "status": "success",
+            "message": "token successfully refreshed",
+            "data": {
+                        "token": "fbdbedzsdzdgnsdgnsdfgsrtjn"
             }
         
         }

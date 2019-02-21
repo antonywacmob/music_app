@@ -1555,3 +1555,68 @@ Polls is a simple API allowing consumers to view polls and vote in them.
             "message": "Verification link sent to email"
         
         }
+        
+## Create Playlist [/create_playlist]
+
+### Register [POST]
+
++ Request (application/json)
+
+        {
+            "playlist_name": "Playlist 1"
+        }
+        
++ Response 200 (application/json)
+
+        {
+            "status": "success",
+            "message": "Playlist successfully created"
+        
+        }
+        
+        
+## Add to Playlist [/add_to_playlist]
+
+### Register [POST]
+
++ Request (application/json)
+
+        {
+            "playlist_id": 1,
+            "songs" : [
+                        1,
+                        2,
+                        3
+                    ]
+        }
+        
++ Response 200 (application/json)
+
+        {
+            "status": "success",
+            "message": "Added to playlist successfully"
+        
+        }
+        
+        
+## Add to Playlist [/add_to_favourites]
+
+### Register [POST]
+
++ Request (application/json)
+
+        {
+            "songs" : [
+                        1,
+                        2,
+                        3
+                    ]
+        }
+        
++ Response 200 (application/json)
+
+        {
+            "status": "success",
+            "message": "Added to favourites successfully"
+        
+        }

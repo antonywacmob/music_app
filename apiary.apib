@@ -1562,9 +1562,15 @@ Polls is a simple API allowing consumers to view polls and vote in them.
 
 + Request (application/json)
 
-        {
-            "playlist_name": "Playlist 1"
-        }
+    + Headers
+    
+            Authorization: "Bearer laksjdlkcalsjbcakjsbkasjba"
+
+    + Body
+
+            {
+                "playlist_name": "Playlist 1"
+            }
         
 + Response 200 (application/json)
 
@@ -1581,14 +1587,20 @@ Polls is a simple API allowing consumers to view polls and vote in them.
 
 + Request (application/json)
 
-        {
-            "playlist_id": 1,
-            "songs" : [
-                        1,
-                        2,
-                        3
-                    ]
-        }
+    + Headers
+    
+            Authorization: "Bearer laksjdlkcalsjbcakjsbkasjba"
+
+    + Body    
+    
+            {
+                "playlist_id": 1,
+                "songs" : [
+                            1,
+                            2,
+                            3
+                        ]
+            }
         
 + Response 200 (application/json)
 
@@ -1605,13 +1617,19 @@ Polls is a simple API allowing consumers to view polls and vote in them.
 
 + Request (application/json)
 
-        {
-            "songs" : [
-                        1,
-                        2,
-                        3
-                    ]
-        }
+    + Headers
+    
+            Authorization: "Bearer laksjdlkcalsjbcakjsbkasjba"
+
+    + Body
+
+            {
+                "songs" : [
+                            1,
+                            2,
+                            3
+                        ]
+            }
         
 + Response 200 (application/json)
 
